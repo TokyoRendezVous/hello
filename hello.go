@@ -2,6 +2,6 @@ package hello
 
 import "fmt"
 
-func SayHi() {
-	fmt.Println("Hi!")
+func SayHi(name string) {
+	fmt.Printf("Hi %s.\n", name)
 }
